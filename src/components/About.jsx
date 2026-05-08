@@ -78,7 +78,7 @@ export default function About() {
                     src="/mypicture.jpeg" 
                     alt="My Profile" 
                    className="w-full h-full object-cover" 
-  />
+                  />
                 </div>
 
                 {/* Corner decorations */}
