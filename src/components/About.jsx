@@ -1,3 +1,4 @@
+import mypicture from '../image/mypicture.jpg';
 export default function About() {
   return (
     <section id="about" className="relative py-32 px-8 md:px-16 border-t border-paper/8">
@@ -74,12 +75,12 @@ export default function About() {
 
                 {/* Initials */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                 <img 
-                    src="/mypicture.jpeg" 
+                      <img 
+                    src="src/image/mypicture.jpg" 
                     alt="My Profile" 
-                   className="w-full h-full object-cover" 
+                    className="w-full h-full object-cover" 
                   />
-                </div>
+              </div>
 
                 {/* Corner decorations */}
                 <div className="absolute top-4 left-4 w-6 h-6 border-t border-l border-lime/50" />
